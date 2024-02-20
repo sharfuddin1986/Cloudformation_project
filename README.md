@@ -5,5 +5,5 @@
    
 # You are asked to perform the following tasks: 
  
-1. Create a template which can create an S3 bucket named “Intellipaat-<yourname >”
+1. Create a template which can create an S3 bucket named “sharfuddin-saif”
 2. The template should be able to enable versioning for the bucket created 
