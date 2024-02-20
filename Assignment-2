@@ -2,3 +2,20 @@
 
   1. Create a template wtth 1 VPC and 1 Public Subnet 
   2. Launch an Amazon Linux EC2 instance in the public subnet and tag the instance as "Cfinstance'' 
+
+
+
+
+
+
+   Step:-
+        Go To cloudformation-create new stack-select create template designer-create new template-select service s3, 
+       
+        drag & drop and below paste the code-validate and create stack.
+
+
+ After that service is created sucessfully
+
+
+
+
