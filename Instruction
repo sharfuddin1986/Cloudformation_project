@@ -1,1 +1,3 @@
-Step-
+# Step:-
+        Go To cloudformation-create new stack-select create template designer-create new template-select service s3, 
+        drag & drop and below paste the code-validate and create stack
