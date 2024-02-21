@@ -15,14 +15,14 @@ Resources:
       EnableDnsHostnames: true
       Tags:
         - Key: "Name"
-          Value: "Vishwas-CF-VPC"
+          Value: "sharfuddin-CF-VPC"
   
   InternetGateway:
     Type: AWS::EC2::InternetGateway
     Properties:
       Tags:
         - Key: "Name"
-          Value: "Vishwas-CF-VPC-IGW"
+          Value: "sharfuddin-CF-VPC-IGW"
   
   InternetGatewayAttachment:
     Type: AWS::EC2::VPCGatewayAttachment
@@ -38,7 +38,7 @@ Resources:
       MapPublicIpOnLaunch: true
       Tags:
         - Key: "Name"
-          Value: "Vishwas-CF-VPC-Public-Subnet"
+          Value: "sharfuddin-CF-VPC-Public-Subnet"
   
   PublicRouteTable:
     Type: AWS::EC2::RouteTable
@@ -46,7 +46,7 @@ Resources:
       VpcId: !Ref VPC
       Tags:
         - Key: "Name"
-          Value: "Vishwas-CF-VPC-PublicRouteTable"
+          Value: "sharfuddin-CF-VPC-PublicRouteTable"
   
   SpecifiedPublicRoute:
     Type: AWS::EC2::Route
@@ -64,7 +64,7 @@ Resources:
   EC2SecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupName: "Vishwas-VPC-CF-Sg"
+      GroupName: "sharfuddin-CF-Sg"
       VpcId: !Ref VPC 
       GroupDescription: "Security Group for VPC Created Using Cloudformation."
       SecurityGroupIngress:
@@ -75,12 +75,12 @@ Resources:
           CidrIp: 0.0.0.0/0
       Tags:
         - Key: "Name"
-          Value: "Vishwas-VPC-CF-Sg"
+          Value: "sharfuddin-VPC-CF-Sg"
 
   EC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-007855ac798b5175e #ami id ofamazon linux instance in north virginia
+      ImageId: ami-0c7217cdde317cfec #ami id ofamazon linux instance in north virginia
       KeyName: !Ref Key
       InstanceType: t2.micro
       SubnetId: !Ref PublicSubnet
@@ -89,7 +89,7 @@ Resources:
 
       Tags:
         - Key: "Name"
-          Value: "VishwasEC2-CF-VPC"    
+          Value: "sharfuddinEC2-CF-VPC"    
 
 Outputs:
   VPC:
