@@ -1,3 +1,12 @@
-you work for XYZ Corporation, your team is asked to deploy architecture similar architecture multiple
-times for testing, development, and production purposes, implement CloudFormation for the tasks
-assigned to you below
+#######################################   Assignment-3   ############################################
+
+Problem statment :-
+    you work for XYZ Corporation, your team is asked to deploy architecture similar architecture multiple
+    times for testing, development, and production purposes, implement CloudFormation for the tasks
+    assigned to you below.
+
+You are asked to perform the following tasks: 
+
+    1. Use the template from Cloudformation task 1 
+    2. Add Notification to the Cloudformation stack using SNS, so you get a notification via mail for every step
+       of the stack creation process 
