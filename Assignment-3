@@ -11,5 +11,14 @@ You are asked to perform the following tasks:
     2. Add Notification to the Cloudformation stack using SNS, so you get a notification via mail for every step
        of the stack creation process.
 
+
+
+ Step:-
+        Go To cloudformation-create new stack-select option template is ready-upload template file -next - Create 
+        add notification-create sns topic and add email-create
+       
+
+
+ After that service is created sucessfully
        
       You will get one email for verification.After confirmed get email notification.
