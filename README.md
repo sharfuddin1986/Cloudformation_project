@@ -1,2 +1,3 @@
-# Cloudformation_project
+AWS CloudFormation is a service provided by Amazon Web Services (AWS) that allows you to define and provision your AWS infrastructure as code. With CloudFormation, you can create templates using either JSON or YAML syntax to describe the resources and their dependencies in your AWS environment, such as EC2 instances, databases, networking components, and more. Once you've defined your infrastructure in a template, you can use CloudFormation to provision and manage those resources in a repeatable and automated manner.
 
+CloudFormation templates are declarative, meaning you specify the desired state of your infrastructure rather than the steps needed to achieve that state. This allows you to focus on what resources you need and their configurations rather than the intricacies of how to create them. CloudFormation takes care of orchestrating the provisioning process, handling dependencies, and managing updates or deletions of resources.
