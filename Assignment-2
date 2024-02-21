@@ -1,5 +1,14 @@
  #######################################   Assignment-2   ############################################
 
+
+Problem statment :-
+
+    you work for XYZ Corporation, your team is asked to deploy architecture similar architecture multiple
+    times for testing, development, and production purposes, implement CloudFormation for the tasks
+    assigned to you below.
+
+You are asked to perform the following tasks:
+
   1. Create a template wtth 1 VPC and 1 Public Subnet 
   2. Launch an Amazon Linux EC2 instance in the public subnet and tag the instance as "Cfinstance'' 
 
